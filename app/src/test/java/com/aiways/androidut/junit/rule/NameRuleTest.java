@@ -11,6 +11,7 @@ public class NameRuleTest {
 
     @Test
     public void testA() {
+        System.out.println("testA");
     }
 
     @Test

@@ -13,6 +13,7 @@ public class MethodNameExample implements TestRule {
                 //想要在测试方法运行之前做一些事情，就在base.evaluate()之前做
                 String className = description.getClassName();
                 String methodName = description.getMethodName();
+                System.out.println("before evaluate");
 
                 base.evaluate();
 
